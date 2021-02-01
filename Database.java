@@ -10,8 +10,8 @@ public class Database {
 
     public void showCities(String country) {
         String url="jdbc:mysql://itsovy.sk:3306/world_x";
-        String username = "mysqluser";
-        String password = "Kosice2021!";
+        String username = "--";
+        String password = "--";
 
             String query = "SELECT city.Name, city.CountryCode " +
                     "FROM city " +
