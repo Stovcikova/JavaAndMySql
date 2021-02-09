@@ -6,6 +6,7 @@ public class Country {
     private String capitalCity;
     private int area;
     private String continent;
+    private String country
 
     public Country(String name, String code3, String capitalCity, int area, String continent){
         this.name = name;
@@ -13,6 +14,7 @@ public class Country {
         this.capitalCity = capitalCity;
         this.area = area;
         this.continent = continent;
+        this.country = country;
     }
 
     public String getName(){
